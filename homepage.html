@@ -39,6 +39,9 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: hwb(160 7% 60%);
     font-family: fantasy;
+    position: static;
+    top: -10px;
+    left: 20px;
    }
    .pure
    {
@@ -46,7 +49,7 @@
     font: size 2.5em;
     text-align: center;
     font-weight: normal;-webkit-text-stroke-width: 0.6px;-webkit-text-stroke-color: hwb(160 7% 60%);
-    font-family: fantasy;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     }
     .pen
     {
@@ -190,7 +193,7 @@ h3
     transition: all 200ms ease-in-out;
     max-width: 400px;
     margin: 0 auto;
-    font-family: fantasy;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 h3:hover
 {
@@ -230,27 +233,6 @@ div
     font-family:'Times New Roman'
 }
   </style>
-<script>
-  function acc()
-      {
-        let phi= prompt("What is your name?");
-        let phill= prompt("What do you want to order?");
-        let philll= prompt("Please enter your address");
-        let philly= prompt("Please enter payment option");
-        if(phill === "spaghetti" || phill === "indomine" || phill === "coffee" )
-        {
-          let button = document.querySelector("button");
-          button.innerHTML ="🤗🤗🤗<br />Thank you  " + phi + ". You ordered for " + phill + ". your meal will be delivered to " +  philll + " shortly.";
-        }
-        else
-        {
-          let button= document.querySelector("button");
-          button.innerHTML ="😥<br />Sorry " + phi + ". We cannot proccess your order to " + philll + ".Please try again later.";
-        }
-      }
-        let accbut = document.querySelector("button");
-         accbut.addEventListener("click", acc);
-</script>
   </body>
   </html>
   
