@@ -37,24 +37,27 @@ h1
 }
 
 .bar {
-  width: 25px;
+  width: 15px;
   height: 3px;
   background-color: hwb(160 7% 60%);
   margin: 5px 0;
+  display:block;
+  align-items:center;
+  text-align:center;
 }
 
 .menu {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 20%;
 }
 
 .menu a {
   color: hwb(160 7% 60%);
   text-decoration: none;
-  padding: 15px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 
@@ -69,16 +72,13 @@ h1
 
   .menu {
     display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
+    flex-direction: center;
+    
     background-color: #333;
   }
 
   .menu a {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
   }
 
@@ -249,6 +249,10 @@ div {
   text-align: center;
   margin-top: 20px;
 }
+.login-message:hover{
+  text-transform:uppercase
+}
+
 
 .login-form {
   max-width: 300px;
