@@ -443,20 +443,21 @@ object-fit: cover;
   margin-bottom: 5px;
 }
 .intro {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 40px;
   font-weight: 400px;
   line-height: 50px;
   font-style: normal;
   text-transform: uppercase;
+  font-family:fantasy;
 }
 .intro:hover{
 color:whitesmoke;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   -webkit-text-stroke: 2px #000000; 
-  text-stroke: 2px #000000; 
+  text-stroke: 2px #000000;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .aintro {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
